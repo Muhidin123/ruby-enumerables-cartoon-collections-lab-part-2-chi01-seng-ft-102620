@@ -19,6 +19,4 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.map! {|element| valid_calls.include?(valid_calls.each)}
-  planeteer_calls[0]
 end
