@@ -18,8 +18,5 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_valid_calls(planeteer_calls)
-  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  valid = []
-  valid = planeteer_calls.select {|element| element == valid_calls}
-  valid[0]
+  planeteer_calls.include
 end
